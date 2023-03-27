@@ -80,10 +80,27 @@ async def on_message(message):
     if "nigger" in message.content:
         print(f'Racism detected in server!')
         print(f'10A3')
+
+    #A4x series:
+    #A4,1
+    if "TPA sucks" in message.content:
+        await message.delete
+        print(f'Deleted a hate message')
+        print(f'10A4,1')
     
-    ## End of Ax ##
+    #A4,2
+    if "The Pissy Assistant sucks" in message.content:
+        await message.delete
+        print(f'Deleted a hate message')
+        print(f'10A4,2')
     
-    #btw from now on the code will be more fancy I'm lazy to organize the previous bits of code
+    #A4,3
+    if "piss assistant sucks" in message.content:
+        await message.delete
+        print(f'Deleted a hate message')
+        print(f'10A4,3')
+        
+    #end of Ax
 
 #@bot.command()    failed kick command
 #@commands.has_permissions(kick_members=True)
