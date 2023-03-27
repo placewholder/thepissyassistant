@@ -93,5 +93,3 @@ async def on_message(message):
 #    await ctx.guild.kick(member)                                           ##please help with the kick command
 #    await message.channel.send('the command is wip rn')                    ##Love, placewholder <3
 #    await ctx.send(f"User {member.mention} has been kicked for {reason}")  
-
-client.run('MTA4NzYyOTg1MjcyMDUxMzA0NA.Gem9MN.T1AcXk2ASmAzP5Y1C7z4Zuz18oN0eYNy95m_1M')
